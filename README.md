@@ -9,10 +9,12 @@ A Downloader for Imooc Video
 很粗暴的解决了幕课网（Imooc）的视频下载，输入想要下载的视频编号之后，全自动筛选出视频并下载，下载方式是列表内视频并行下载…（所以真的好粗暴的啦日后边维护边修改）
 
 ## 安装与使用（Install & Usage）
+
 ### 两种方法安装（Install）
 1.  `git clone https://github.com/ColMugX/ImoocDownloader.git ./ImoocDownloader`
 2.  `Download ZIP`
 3.  `Open in Desktop`
+
 ### 使用（Usage）
 ```shell
 cd ./ImoocDownloader
