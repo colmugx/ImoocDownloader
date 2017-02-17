@@ -12,7 +12,7 @@ var getClass = function (dict, cName) {
 
     console.log('一共有' + classList.length + '个视频');
 
-    var rl = require('readline').createInterface({ //Read Line.
+    const rl = require('readline').createInterface({ //Read Line.
         input: process.stdin,
         output: process.stdout,
         terminal: false
@@ -48,7 +48,6 @@ var getClass = function (dict, cName) {
                 break;
             default:
                 console.log('只有【SD(普清)】、【HD(高清)】、【FHD(超清)】三种');
-                return false;
         }
     });
 }
@@ -101,7 +100,7 @@ var findClass = function (data) {
         var classWh = $('.first ~ dl dd.autowrap').text();
         console.log('【课程老师】： '.green + author.grey + '\n【教师职位】： '.green + job.grey + '\n【课程时间】： '.green + classTime.grey + '\n【课程难度】： '.green + classValue.grey + '\n【课程简介】： '.green + classInfo.grey + '\n【课程须知】： \n'.green + classKn.grey + '\n【我能学到】： \n'.green + classWh.grey);
 
-        var rl = require('readline').createInterface({ //Read Line.
+        const rl = require('readline').createInterface({ //Read Line.
             input: process.stdin,
             output: process.stdout,
             terminal: false
@@ -124,7 +123,7 @@ var findClass = function (data) {
 
 var main = function () {
 
-    var rl = require('readline').createInterface({ //Read Line.
+    const rl = require('readline').createInterface({ //Read Line.
         input: process.stdin,
         output: process.stdout,
         terminal: false

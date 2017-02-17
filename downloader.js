@@ -1,6 +1,6 @@
-var request = require('request');
-var fs = require('fs');
-var colors = require('colors');
+const request = require('request');
+const fs = require('fs');
+const colors = require('colors');
 
 module.exports = function (cName, vName, num, dis) {
 
